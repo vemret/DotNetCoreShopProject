@@ -1,0 +1,9 @@
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\bin\Debug\netstandard2.0\dotnetapp.entity.deps.json
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\bin\Debug\netstandard2.0\dotnetapp.entity.dll
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\bin\Debug\netstandard2.0\dotnetapp.entity.pdb
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\obj\Debug\netstandard2.0\dotnetapp.entity.csprojAssemblyReference.cache
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\obj\Debug\netstandard2.0\dotnetapp.entity.AssemblyInfoInputs.cache
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\obj\Debug\netstandard2.0\dotnetapp.entity.AssemblyInfo.cs
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\obj\Debug\netstandard2.0\dotnetapp.entity.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\obj\Debug\netstandard2.0\dotnetapp.entity.dll
+C:\DotNetProjects\dotnetapp\dotnetapp.entity\obj\Debug\netstandard2.0\dotnetapp.entity.pdb

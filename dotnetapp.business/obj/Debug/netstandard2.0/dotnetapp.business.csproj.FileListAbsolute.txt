@@ -1,0 +1,14 @@
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.business.deps.json
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.business.dll
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.business.pdb
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.data.dll
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.entity.dll
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.entity.pdb
+C:\DotNetProjects\dotnetapp\dotnetapp.business\bin\Debug\netstandard2.0\dotnetapp.data.pdb
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.csprojAssemblyReference.cache
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.AssemblyInfoInputs.cache
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.AssemblyInfo.cs
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.csproj.CopyComplete
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.dll
+C:\DotNetProjects\dotnetapp\dotnetapp.business\obj\Debug\netstandard2.0\dotnetapp.business.pdb

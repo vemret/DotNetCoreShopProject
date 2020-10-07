@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnetapp.entity\dotnetapp.entity.csproj" /> <!-- Product için referans aldık -->
+    <ProjectReference Include="..\dotnetapp.data\dotnetapp.data.csproj" /> <!-- Product için referans aldık -->
+
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

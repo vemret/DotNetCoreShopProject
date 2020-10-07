@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qrIPev6UpIRCXVX0WzY8OxCmItF1BbZIBbsBbvBRfIEMBHAcN1ZFosb0yOHHobEtIYTeopjArr0jVjWSs6NEfg==",
+  "success": true,
+  "projectFilePath": "C:\\DotNetProjects\\dotnetapp\\dotnetapp.entity\\dotnetapp.entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vahit Emre Tellier\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vahit Emre Tellier\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
