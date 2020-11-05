@@ -94,3 +94,5 @@ C:\DotNetProjects\dotnetapp\dotnetapp.webui\bin\Debug\netcoreapp3.1\dotnetapp.bu
 C:\DotNetProjects\dotnetapp\dotnetapp.webui\bin\Debug\netcoreapp3.1\dotnetapp.business.pdb
 C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shop\List.cshtml.g.cs
 C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Details.cshtml.g.cs
+C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_search.cshtml.g.cs
+C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Search.cshtml.g.cs

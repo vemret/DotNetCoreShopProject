@@ -2,6 +2,7 @@ using System.Linq;
 using dotnetapp.business.Abstract;
 using dotnetapp.entity;
 using dotnetapp.webui.Models;
+using dotnetapp.webui.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnetapp.webui.Controllers
@@ -16,10 +17,22 @@ namespace dotnetapp.webui.Controllers
             this._productService=productService;
         }
 
-        public IActionResult List(string category){
-            
+        
+        // local/host/products/categoryname?page=1 sayfalama
+        //burada ana sayfaya düşen ürünleri sayfaladık
+        public IActionResult List(string category, int page=1){
+            //const bir değişkeni program boyunca sabit tutar
+            const int pageSize=2;
+            //productwievmodelde sınıfında tanımlı bilgileri aldık
             var productViewModel =new ProductListViewModel(){
-                Products = _productService.GetProductsByCategory(category)
+                PageInfo = new PageInfo(){
+                    // GetProductsByCategory ile Iporoductservice de yöntem üretildi
+                    TotalItems = _productService.GetCountByCategory(category),
+                    CurrentPage = page,
+                    ItemPerPage = pageSize,
+                    CurrentCategory = category
+                },
+                Products = _productService.GetProductsByCategory(category,page,pageSize)
             };
             return View(productViewModel);
         }
@@ -39,6 +52,13 @@ namespace dotnetapp.webui.Controllers
                     Categories = product.ProductCategories.Select(id=>id.Category).ToList()
                 });
             
+        }
+
+        public IActionResult Search(string q){
+            var productViewModel = new ProductListViewModel{
+                Products = _productService.GetSearchResult(q)
+            };
+            return View(productViewModel);
         }
     }
 }

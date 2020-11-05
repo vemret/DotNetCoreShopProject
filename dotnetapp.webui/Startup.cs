@@ -58,6 +58,12 @@ namespace dotnetapp.webui
             //localhost:5000
             app.UseEndpoints(endpoints =>
             {
+                //localhost/search
+                endpoints.MapControllerRoute(
+                    name: "search",
+                    pattern: "search",
+                    defaults: new {controller="Shop", Action="search"}
+                );
                 endpoints.MapControllerRoute(
                     name: "productdetails",
                     pattern: "{url}",

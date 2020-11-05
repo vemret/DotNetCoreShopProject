@@ -14479,6 +14479,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Shop\\Search.cshtml",
+      "TargetPath": "Views\\Shop\\Search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -14501,6 +14506,11 @@
     {
       "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Home\\MyView.cshtml",
       "TargetPath": "Views\\Home\\MyView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Shared\\_search.cshtml",
+      "TargetPath": "Views\\Shared\\_search.cshtml",
       "FileKind": "mvc"
     }
   ],
