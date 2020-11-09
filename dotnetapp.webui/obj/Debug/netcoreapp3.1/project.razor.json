@@ -14419,6 +14419,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Admin\\ProductList.cshtml",
+      "TargetPath": "Views\\Admin\\ProductList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14496,6 +14501,11 @@
     {
       "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Product\\List.cshtml",
       "TargetPath": "Views\\Product\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\DotNetProjects\\dotnetapp\\dotnetapp.webui\\Views\\Admin\\CreateProduct.cshtml",
+      "TargetPath": "Views\\Admin\\CreateProduct.cshtml",
       "FileKind": "mvc"
     },
     {

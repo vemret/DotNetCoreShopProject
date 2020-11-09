@@ -1,0 +1,48 @@
+@model ProductModel
+
+<h1 class="h3">Constitude Product</h1>
+<hr>
+<br>
+@* name ve Id ler için ProductModel oluşturulup entity den kopyalandı ve input typelar zaten string olcağı için text yazmaya gerek yok
+ayrıca asp for name ve value yazmıza gerek bırakmıyo ProductModelden alıyor değişiklik anında Product modeldeki verileri direk alıyor *@
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="Admin" asp-action="CreateProduct" method="POST">
+            <div class="form-group row">
+                <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input  class="form-control" asp-for="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Url" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input  class="form-control" asp-for="Url">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <textarea  class="form-control" asp-for="Description"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="ImageUrl" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input  class="form-control" asp-for="ImageUrl">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Price" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input  class="form-control" asp-for="Price">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using dotnetapp.entity;
 
-namespace dotnetapp.webui.ViewModels
+namespace dotnetapp.webui.Models
 {
     //bilgileri shopcontrollera gönderiliyor orada nesne oluşturuluyor
     public class PageInfo

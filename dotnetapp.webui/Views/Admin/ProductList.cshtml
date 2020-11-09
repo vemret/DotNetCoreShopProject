@@ -1,0 +1,60 @@
+@model ProductListViewModel
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="">Admin Products</h1>
+        <hr>
+        <table class="table table-boardered">
+            <thead>
+                <tr>
+                    <td style="width: 30px">ID</td>
+                    <td style="width: 120px">Image</td>
+                    <td >Name</td>
+                    <td >Description</td>
+                    <td style="width: 100px">Price</td>
+                    <td >HomaPage</td>
+                    <td >Approve</td>
+                    <td style="width: 150px"></td>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Products.Count>0)
+                {
+                    @foreach (var item in Model.Products)
+                    {
+                        <tr>
+                            <td>@item.ProductId</td>
+                            <td class=""><img src="~/img/@item.ImageUrl" width="80" alt="" class=""></td>
+                            <td class="">@item.Name</td>
+                            <td class="">@item.Description</td>
+                            <td class="">₺@item.Price</td>
+                            <td >
+                                @if (item.IsHome)
+                                {
+                                    <i class="fas fa-check-circle"></i>
+                                }else{
+                                    <i class="fas fa-times-circle"></i>
+                                }
+                            </td>
+                            <td >
+                                @if (item.IsApprove)
+                                {
+                                    <i class="fas fa-check-circle"></i>
+                                }else{
+                                    <i class="fas fa-times-circle"></i>
+                                }</td>
+                            <td class="">
+                                <a href="/admin/product/@item.ProductId" class="btn btn-primary btn-sm mr-2">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>  
+                    }
+                }else{
+                    <div class="alert alert-warning"><h3 class="">There is not any Product!</h3></div>
+    
+                }
+                
+            </tbody>
+        </table>
+    </div>
+</div>

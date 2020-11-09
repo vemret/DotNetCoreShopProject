@@ -96,3 +96,5 @@ C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Details.cshtml.g.cs
 C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_search.cshtml.g.cs
 C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Search.cshtml.g.cs
+C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductList.cshtml.g.cs
+C:\DotNetProjects\dotnetapp\dotnetapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateProduct.cshtml.g.cs

@@ -2,7 +2,7 @@ using System.Linq;
 using dotnetapp.business.Abstract;
 using dotnetapp.entity;
 using dotnetapp.webui.Models;
-using dotnetapp.webui.ViewModels;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnetapp.webui.Controllers
